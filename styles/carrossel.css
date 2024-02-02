@@ -51,6 +51,10 @@
     font-size: 14px;
 }
 
+.descricao__estrela {
+    margin-bottom: 0.5em;
+}
+
 .card__botoes {
     display: flex;
     justify-content: space-between;
