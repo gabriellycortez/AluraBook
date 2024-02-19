@@ -68,9 +68,17 @@
         </ul>
         
         <div class="cabecalho">
-            <a href="#"><img src="asset/Favoritos.svg" alt="Icone de Favorito" class="container__imagem-favorito" ></a>
-            <a href="#"><img src="asset/Compras.svg" alt="Icone de Compras" class="container__imagem"></a>
-            <a href="#"><img src="asset/Usuario.svg" alt="Icone de Usuario" class="container__imagem"></a>
+            <a href="#">
+                <img src="asset/Favoritos.svg" alt="Icone de Favorito" class="container__imagem-favorito" >
+            </a>
+            <a href="#" class="cabecalho__link">
+                <img src="asset/Compras.svg" alt="Icone de Compras" class="container__imagem">
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="cabecalho__link">
+                <img src="asset/Usuario.svg" alt="Icone de Usuario" class="container__imagem">
+                <p class="container__texto">Meu Perfil</p>
+            </a>
         </div>
         
 
@@ -84,6 +92,7 @@
 
     <section class="carrossel">
         <h2 class="carrossel__titulo"> Últimos Lançamentos</h2>
+        <div class="carrossel__container">
         <div class="swiper">
 
             <!-- If we need pagination -->
@@ -132,7 +141,7 @@
                 </div>
             </div>
         </div>
-
+    </div>
         <h2 class="carrossel__titulo">Mais vendidos</h2>
         <div class="swiper">
             <div class="swiper-pagination"></div>
@@ -199,8 +208,10 @@
     </section>
 
     <section class="contato"> 
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
 
@@ -208,6 +219,51 @@
 
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo Alura</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação</li>
+            <li class="lista-rodape__item"><img src="asset/Caelum.svg" alt="Logo da Caellum"><a href="#" class="lista-rodape__link">Caelum</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/CasaDoCodigo.svg" alt="Logo da Casa do Código"><a href="#" class="lista-rodape__link">Casa do Código</a></li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação Online</li>
+
+            <li class="lista-rodape__item"><img src="asset/Alura.svg" alt="Logo da Alura"><a href="#" class="lista-rodape__link">Alura</a></li>
+            
+            <li class="lista-rodape__item"><img src="asset/AluraEmpresas.svg" alt="Logo da AluraEmpresas"><a href="#" class="lista-rodape__link">Alura Para Empresas</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/AluraLatam.svg" alt="Logo da AluraLatam"><a href="#" class="lista-rodape__link">Alura LATAM</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/AluraStart.svg" alt="Logo da AluraStart"><a href="#" class="lista-rodape__link">Alura Start</a></li>
+            
+            <li class="lista-rodape__item"><img src="asset/MusicDot.svg" alt="Logo da Music Dot"><a href="#" class="lista-rodape__link">MusicDot</a></li>
+
+            
+            <li class="lista-rodape__item"><img src="asset/AluraLingua.svg" alt="Logo da AluraLingua"><a href="#" class="lista-rodape__link">Alura Lingua</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/PM3.svg" alt="Logo da PM3"><a href="#" class="lista-rodape__link">PM3</a></li>
+        </ul>
+
+        
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Comunidade</li>
+
+            <li class="lista-rodape__item"><img src="asset/HipstersTech.svg" alt="Logo da HipstersTech"><a href="#" class="lista-rodape__link">Hipsters Ponto Tech</a></li>
+            
+            <li class="lista-rodape__item"><img src="asset/Scuba.svg" alt="Logo da Scuba"><a href="#" class="lista-rodape__link">Scuba DEV</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/Layers.svg" alt="Logo da Layers"><a href="#" class="lista-rodape__link">Layers Ponto Tech</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/LikeABoss.svg" alt="Logo da LikeABoss"><a href="#" class="lista-rodape__link">Like a Boss</a></li>
+            
+            <li class="lista-rodape__item"><img src="asset/CarreiraSemFronteira.svg" alt="Logo da Carreira Sem Fronteira"><a href="#" class="lista-rodape__link">Carreira Sem Fronteira</a></li>
+            
+            <li class="lista-rodape__item"><img src="asset/HipstersJobs.svg" alt="Logo da HipstersJobs"><a href="#" class="lista-rodape__link">Hipsters Jobs</a></li>
+
+            <li class="lista-rodape__item"><img src="asset/GUJ.svg" alt="Logo da GUJ"><a href="#" class="lista-rodape__link">GUJ</a></li>
+        </ul>
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
